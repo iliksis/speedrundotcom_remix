@@ -73,7 +73,7 @@ export function getGameTestData(
         id: j,
         category: "Category Name " + j,
         time: `${j + i}m ${j + i}s`,
-        place: j,
+        place: j + 1,
         players: [] as IPlayer[],
       };
       for (let k = 0; k < players; k++) {

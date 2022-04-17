@@ -9,6 +9,7 @@ export default function TitleCard(props: ITitleCard) {
         <img
           className="h-16 w-12"
           src="https://www.speedrun.com/gameasset/4d7y5zd7/cover?v=d2812e6"
+          alt="game cover"
         />
       </a>
       <div className="grow">

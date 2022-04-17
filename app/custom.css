@@ -1,0 +1,10 @@
+/* custom tooltip classes */
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+.has-tooltip:hover .tooltip {
+  visibility: visible;
+  z-index: 100;
+}

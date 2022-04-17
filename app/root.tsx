@@ -9,8 +9,12 @@ import {
 } from "@remix-run/react";
 import NavBar from "./components/NavBar";
 import styles from "./tailwind.css";
+import customStyles from "./custom.css";
 
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: styles },
+  { rel: "stylesheet", href: customStyles },
+];
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
